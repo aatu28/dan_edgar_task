@@ -1,5 +1,10 @@
 **Project Scope: The Monsieur Grooming "Revenue-First" Dashboard**
 
+Loom Walkthrough: https://www.loom.com/share/3162a88073744a12a4b4d768240a08a9
+
+
+Dashboard Link: https://content-sales-optimi-pf1j.bolt.host 
+
 *1. What am I building?*
 
 I’m building a focused insight engine for Dan Edgar that answers the one question every creator has after a long day of filming: "Did that post actually make me money?".
@@ -22,3 +27,4 @@ The data analysis shows that revenue is most strongly tied to views from 2 days 
 "THE BOX" as the Hero: I assumed "THE BOX" (£49) is the primary driver of Dan's brand health. My UI highlights this product specifically because its higher price point makes it the most important item to track against high-reach videos.
 
 Actionable > Informational: I assumed Dan is busy. He doesn't want to explore data; he wants to be told what to do. I included a "Strategy Recommendation" card to turn raw numbers into a filming schedule.
+
