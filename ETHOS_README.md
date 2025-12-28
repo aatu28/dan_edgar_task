@@ -52,10 +52,25 @@ Post-Level Attribution: Transitioning from daily correlations to specific post-l
 
 Dynamic UI Elements: Create clickable elements if Dan wants to further explore the data.
 
+*Prompts and AI Reasoning*
+
+I leveraged Bolt.new as an AI-native development partner to build this prototype in under two hours. My goal was to spend less time on CSS boilerplate and more time on the data logic that matters to Dan.
+Because I was working with a limited token budget, I couldn't afford guess and iterate development. I had to be very precise in my prompts to ensure the AI got the business logic right on the first try.
+
+Prompt 1: The "Everything Everywhere" Foundation
+" Analyze daily_sales.json and content_posts.json. You must identify the 48-hour sales lag—specifically how post_026 (156k views) correlates to the Dec 16 revenue peak. Build a React dashboard that shifts views +2 days, identifies 'THE BOX' as the hero product, and calculates the efficiency gap between TikTok reach and Instagram conversion. Use a premium, dark-mode aesthetic for a lifestyle brand."
+
+The Reasoning: I combined the data analysis, the specific "smoking gun" post, the visual logic, and the brand aesthetic into a single "Master Prompt." This ensured the AI didn't waste tokens on a generic layout and immediately built a tool that solved the attribution problem.
+
+Prompt 2: The Actionable "So-What?"
+"Now, summarize the data into three 'Dan-proof' recommendations. Use the revenue-per-view metrics to tell him exactly when to post on TikTok versus Instagram to hit his weekend sales peaks. Keep the UI static and clean—prioritize the accuracy of the insights over interactive components."
+
+The Reasoning: To save tokens, I explicitly told the AI to cut interactivity. I traded "clickable buttons" for "better data insights." This allowed me to use the remaining tokens to ensure the recommendations were humanized and strategically sound.
+
+
 *Files Included*
 
 daily_sales.json: 16 days of sales data
 
 content_posts.json: 30 social media posts across Instagram and TikTok
 
-Source code for the React-based prototype
